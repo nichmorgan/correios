@@ -18,10 +18,12 @@ A client library for Brazilian Correios APIs (SIGEP and SRO) and services.
 
 Installation
 ------------
-
+Update:   
+   A bug in the freight calculation has been solved, until the pull resquest is accepted and initial installation by git is recommended.   
+   
 .. code-block::
 
-   $ pip install correios  # basic model support
+   $ pip install git+https://github.com/nichmorgan/correios.git  # installation of the required repaired version
    $ pip install correios[pdf]  # label and posting list pdf generation support
    $ pip install correios[api]  # support for SIGEP/SRO API client
    $ pip install correios[pdf,api]  # full installation
