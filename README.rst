@@ -24,9 +24,6 @@ Update:
 .. code-block::
 
    $ pip install git+https://github.com/nichmorgan/correios.git  # installation of the required repaired version
-   $ pip install correios[pdf]  # label and posting list pdf generation support
-   $ pip install correios[api]  # support for SIGEP/SRO API client
-   $ pip install correios[pdf,api]  # full installation
 
 
 Update Local WSDL Files
